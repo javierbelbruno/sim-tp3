@@ -1,4 +1,5 @@
-# Variables Aleatorias
+# sim-tp3
+## Variables Aleatorias
 
 a) Realizar una librería que proporcione (mediante funciones o métodos) la funcionalidad necesaria para generar valores de variables aleatorias para las siguientes distribuciones: uniforme, exponencial, poisson y normal.
 El usuario debe poder ingresar los parámetros de las distribuciones y la cantidad de valores a generar. Los valores generados deben poder ser visualizados.

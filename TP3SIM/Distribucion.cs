@@ -82,13 +82,16 @@ namespace WindowsFormsApplication1
         {
             rnd = new Random();
             vGen = new double[n];
-            double p = 1;
-            double x = -1;
-            do
+            for(int i = 0; i < n; i++)
             {
-                p = p * rnd.Next();
-                x++;
-            } while (p >= Math.Exp(lamda));
+                double p = 1;
+                double x = -1;
+                do
+                {
+                    p = p * rnd.Next();
+                    x++;
+                } while (p >= Math.Exp(lamda));
+            }            
             return vGen;
         }
     }

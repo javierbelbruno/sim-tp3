@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Distribucion.cs" />
     <Compile Include="Exponencial.cs">
       <SubType>Form</SubType>
     </Compile>
